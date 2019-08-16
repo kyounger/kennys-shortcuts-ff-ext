@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Kenny's Shortcuts",
+  "version": "0.1.0",
+  "description": "Kenny's stuff",
+  "applications": {
+    "gecko": {
+      "id": "kyounger@gmail.com"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "contextualIdentities",
+    "cookies"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "kennys-shortcuts-1": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F1",
+        "mac": "Alt+Shift+F1"
+      },
+      "description": "Re-open in Container: Personal"
+    },
+    "kennys-shortcuts-2": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F2",
+        "mac": "Alt+Shift+F2"
+      },
+      "description": "Re-open in Container: Work"
+    }
+  }
+}
