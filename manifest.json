@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Kenny's Shortcuts",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "description": "Kenny's stuff",
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
-      "id": "kyounger@gmail.com"
+      "id": "kennysext@sheerfocus.com"
     }
   },
   "permissions": [
@@ -20,15 +20,15 @@
   "commands": {
     "kennys-shortcuts-1": {
       "suggested_key": {
-        "default": "Ctrl+Shift+F1",
-        "mac": "Alt+Shift+F1"
+        "default": "Ctrl+F1",
+        "mac": "MacCtrl+F1"
       },
       "description": "Re-open in Container: Personal"
     },
     "kennys-shortcuts-2": {
       "suggested_key": {
-        "default": "Ctrl+Shift+F2",
-        "mac": "Alt+Shift+F2"
+        "default": "Ctrl+F2",
+        "mac": "MacCtrl+F2"
       },
       "description": "Re-open in Container: Work"
     }

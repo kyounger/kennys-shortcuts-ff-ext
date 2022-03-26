@@ -1,0 +1,5 @@
+*.zip
+*.xpi
+.ash_history
+.config/
+.web-extension-id
